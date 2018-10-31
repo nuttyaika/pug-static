@@ -1,0 +1,20 @@
+.section-title {
+  font-weight: bold;
+  font-size: 22px;
+  @include media-breakpoint-up(md) {
+    font-size: 26px;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 28px;
+  }
+}
+.section-title--small {
+  font-weight: bold;
+  font-size: 20px;
+  @include media-breakpoint-up(md) {
+    font-size: 23px;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 25px;
+  }
+}

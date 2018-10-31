@@ -1,0 +1,35 @@
+$primary: #fcee21;
+$btn-border-radius: 25px;
+$btn-border-radius-lg: 25px;
+$btn-border-radius-sm: 25px;
+$link-color: #007bff;
+$font-size-base: 1rem;
+$font-family-sans-serif: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+p,
+ul,
+table {
+  line-height: 1.7;
+  letter-spacing: 0.08em;
+}
+
+@import "~please-wait/src/please-wait.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700");
+@import '_variables';
+@import '_layout';
+@import '_button';
+@import '_fonts';
+@import '_title';
+@import '_home';
+
