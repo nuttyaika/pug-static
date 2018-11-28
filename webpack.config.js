@@ -108,8 +108,8 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       {
-        from: './app/images/logo_text.svg',
-        to: 'images/logo_text.svg'
+        from: './app/images/',
+        to: 'images/'
       },
     ])
   ],
